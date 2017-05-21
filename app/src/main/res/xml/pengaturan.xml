@@ -1,0 +1,28 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="Text1">
+		<com.editText.CustomColor.EditText
+			android:summary="%s"
+			android:title="Text1"
+			android:key="Text1"
+			android:hint="Ganti Text1 Nya" />
+		<com.editText.CustomColor.colorpicker.ColorPickerPreference
+			android:title="Ganti Warna"
+			android:key="Color_Text1" />
+		
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="Text2">
+		<com.editText.CustomColor.EditText
+			android:summary="%s"
+			android:title="Text2"
+			android:key="Text2"
+			android:hint="Ganti Text2 Nya" />
+		<com.editText.CustomColor.colorpicker.ColorPickerPreference
+			android:title="Ganti Warna"
+			android:key="Color_Text2" />
+		
+
+	</PreferenceCategory>
+</PreferenceScreen>
